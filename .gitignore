@@ -1,0 +1,13 @@
+/bin/
+/dist/
+/work/
+/fixtures/
+**/.bandizip-control-backup/
+*.exe
+*.pdb
+*.user
+*.suo
+*.reg
+*.zip
+test-error.txt
+scan-report.txt

@@ -1,0 +1,47 @@
+Edison Noncommercial Source License 1.0
+
+Copyright (c) 2026 Edison
+
+个人制作禁止盈利
+
+1. Scope
+This license applies to the original source code, documentation and other
+original materials in bdzip-evolution (the Software). Third-party materials
+are excluded and remain governed by their own licenses.
+
+2. Noncommercial permission
+Permission is granted, free of charge, to use, study, copy, modify and
+redistribute the Software, in source or binary form, solely for noncommercial
+purposes, subject to the following conditions.
+
+3. No commercial exploitation
+Without prior written permission from Edison, the Software and derivatives
+must not be sold, offered as a paid service, bundled with a paid product,
+distributed behind payment or paid membership, monetized through advertising,
+or used primarily for commercial advantage or monetary compensation.
+
+4. Notices and redistribution
+Redistributions must retain this license, copyright notice, the Edison
+attribution and the notice "个人制作禁止盈利". Modified versions must identify
+their changes and must not imply endorsement by Edison. Derivative versions
+of the original materials must retain these noncommercial restrictions.
+
+5. Third-party rights
+No rights to Bandizip software, trademarks or other third-party materials are
+granted by this license. Capstone is separately licensed under the BSD terms
+included in licenses/CAPSTONE-LICENSE.txt. This license does not restrict
+rights independently granted under third-party licenses.
+
+6. Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE
+AUTHORS SHALL NOT BE LIABLE FOR CLAIMS, DAMAGES OR OTHER LIABILITY ARISING
+FROM THE SOFTWARE OR ITS USE.
+
+7. Termination
+Permission under this license terminates upon breach of its conditions.
+
+This is a source-available noncommercial license, not an OSI-approved
+open-source license. For separate commercial permission, contact Edison
+through the repository owner profile: https://github.com/Edison-0315.

@@ -1,0 +1,20 @@
+PASS original fixture: all four features recognized without version/hash gates
+PASS apply: all files match planned hashes; registry simulated in memory
+PASS repeated apply refused without re-patching
+PASS restore fault injected after first file
+PASS failed restore rolled back to previously patched state
+PASS restore: byte-identical originals and original simulated settings
+PASS apply/restore cycle can repeat while retaining verified backup
+PASS apply fault injected after first file
+PASS failed apply rolled back files and preserved settings
+PASS file changed after scan is rejected before backup/write
+PASS changed FileVersion metadata recognized; no version restriction
+PASS different PE image bases recognized; no fixed virtual addresses
+PASS shifted file section offsets recognized; no fixed file offsets
+PASS missing required semantic feature rejected
+PASS ambiguous duplicate function match rejected
+PASS unsupported architecture rejected instead of applying x64 code
+PASS corrupt backup refused before restore
+PASS truncated PE rejected
+PASS created patched runtime fixture using simulated registry for GUI smoke test
+PASS ALL TESTS PASSED; no installed application or real registry was modified by self-tests

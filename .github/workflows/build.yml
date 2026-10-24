@@ -1,0 +1,24 @@
+name: Windows build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Compile and package
+        shell: powershell
+        run: .\scripts\package.ps1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: bdzip-evolution-windows-x64
+          path: |
+            dist/bdzip-evolution.exe
+            dist/bdzip-evolution-windows-x64.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error

@@ -1,0 +1,21 @@
+name: Release binaries
+on:
+  release:
+    types: [published]
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Compile and package release source
+        shell: powershell
+        run: .\scripts\package.ps1
+      - name: Attach release assets
+        shell: powershell
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: .\scripts\upload-release.ps1
